@@ -205,5 +205,67 @@ for (let i = 1; i <= num; i++) {
 }
 
 
-document.write("Factorial of ", num, " is: ",factorial);
+document.write("Factorial of ", num, " is:",factorial);
+
+
+
+
+// task 9
+
+
+document.write("<h2>Task 9</h2>");
+
+var num = 234;
+var sum = 0
+var reminder;
+
+for (let i = num ; i > 0; i= Math.floor(i / 10)) 
+{
+    
+    sum += i%10 
+    
+}
+
+document.write("Sum of digits of : ");
+
+document.write(num);
+
+document.write("<br>");
+
+document.write("is: ");
+
+document.write(sum);
+
+
+
+
+// task 10
+
+
+document.write("<h2>Task 10</h2>");
+
+var inputList = [1, 2, 3, 4, 5];
+
+let reversedList = [];
+
+for (let i = inputList.length - 1; i >= 0; i--) 
+
+{
+    reversedList.push(inputList[i]);
+
+}
+
+document.write("list is: ")
+
+document.write('[', inputList, ']');
+
+document.write('<br>');
+
+document.write("After reverse the list: ")
+
+document.write('[', reversedList, ']'); 
+
+
+
+
 
